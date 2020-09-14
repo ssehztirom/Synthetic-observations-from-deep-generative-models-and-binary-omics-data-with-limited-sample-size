@@ -12,6 +12,6 @@ To run the Notebook, you need a Jupyter Server with a running Julia installation
 using IJulia
 notebook()
 ```
-This will install the Jupyter server components via Conda. For plotting functionalities via PyPlot, you may need to install [Matplotlib](https://matplotlib.org) via the Python installation, installed by Conda. Given you are in your `HOME` directory, you can achieve this by executing
+This will install the Jupyter server components via Conda when the command is called the first time. In addition it will start a Jupyter notebook server. For plotting functionalities via PyPlot, you may need to install [Matplotlib](https://matplotlib.org) via the Python installation, installed by Conda. Given you are in your `HOME` directory, you can achieve this by executing
 
 ```.julia/conda/3/bin/pip3 install matplotlib --user```.
