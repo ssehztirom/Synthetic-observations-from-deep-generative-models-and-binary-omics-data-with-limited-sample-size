@@ -7,7 +7,7 @@ During evaluation, all required packages are automatically installed.
 
 ## Prerequisites
 
-To run the Notebook, you need a Jupyter Server with a running Julia installation. One approach is to install [Julia](https://www.julialang.org/downloads/) then install [IJulia](https://github.com/JuliaLang/IJulia.jl) and run
+To run the Notebook, you need a Jupyter server with a running Julia installation. One approach is to install [Julia](https://www.julialang.org/downloads/) then to install [IJulia](https://github.com/JuliaLang/IJulia.jl) and run
 ```julia 
 using IJulia
 notebook()
